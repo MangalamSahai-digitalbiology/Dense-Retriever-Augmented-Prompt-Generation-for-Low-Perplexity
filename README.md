@@ -1,11 +1,4 @@
-# 11-667 Homework 3: Tool Use and Retrieval (ver 2024.1.1)
-
 ## Setting up
-
-### AWS
-If you do not already have access to GPUs, you may need an AWS virtual
-  machine for model training.
-[Here are the instructions for setting that up.](https://docs.google.com/presentation/d/1Tw_klO84R9G7CZ3cINAKgy4BfdNm-8dlnRXSBIVD_3A/edit?usp=sharing) 
 
 ### Python environment
 1. Install conda: `bash setup-conda.sh && source ~/.bashrc`
@@ -34,8 +27,4 @@ You can test your solutions by running `pytest` in the project directory.
 Initially all test cases will fail, and you should check your implementation
 against the test cases as you are working through the assignment.
 
-## Code submission
-
-1. Run `zip_submission.sh`. It complains if the model checkpoint/config is missing, and fails if mandatory files are missing.
-2. A `submission.zip` file should be created. Upload this file to Gradescope.
 # Dense-Retriever-Augmented-Prompt-Generation-for-Low-Perplexity
